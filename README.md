@@ -92,23 +92,8 @@ The script is divided into 5 sections:
 
 **[Optional] Terminator**
 
-1. Edit `~/.config/terminator/config`:
-   - Replace `[[default]]` contents with:
-   - ```
-      icon_bell = False
-      background_color = "#282c34"
-      background_darkness = 0.95
-      background_type = transparent
-      cursor_color = "#bbbbbb"
-      foreground_color = "#abb2bf"
-      show_titlebar = False
-      scrollbar_position = hidden
-      palette = "#000000:#eb6e67:#95ee8f:#f8c456:#6eaafb:#d886f3:#6cdcf7:#b2b2b2:#50536b:#eb6e67:#95ee8f:#f8c456:#6eaafb:#d886f3:#6cdcf7:#dfdfdf"
-      use_system_font = False
-      copy_on_selection = True
-     ```
-2. Menu -> Preferred Applications
-3. Select "Terminator" for "Terminal".
+1. Menu -> Preferred Applications
+2. Select "Terminator" for "Terminal".
 
 **[Optional] Fonts**
 

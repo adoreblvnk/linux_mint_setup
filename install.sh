@@ -129,6 +129,38 @@ printf "\ninstalling batcat (& adding aliases)\n"
 sudo apt-get install -qy bat
 echo "alias cat=\"batcat -pp\"" >> ~/.bash_aliases
 
+printf "\ninstalling terminator.\n"
+sudo apt-get install -qy terminator
+echo \
+"[global_config]
+  title_transmit_bg_color = \"#2e3436\"
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = \"#282c34\"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = \"#bbbbbb\"
+    foreground_color = \"#ffffff\"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = \"#000000:#eb6e67:#95ee8f:#f8c456:#6eaafb:#d886f3:#6cdcf7:#b2b2b2:#50536b:#eb6e67:#95ee8f:#f8c456:#6eaafb:#d886f3:#6cdcf7:#dfdfdf\"
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = \"\"
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]" > ~/.config/terminator/config 
+
+
 echo "-----APPS-----"
 
 printf "\ninstalling VLC.\n"
