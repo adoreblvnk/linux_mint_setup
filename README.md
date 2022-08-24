@@ -26,7 +26,7 @@ The script is divided into 5 sections:
 
 ### Executing the Script
 
-1. Launch Firefox.
+1. Launch Firefox, then close it.
 2. Download `./install.sh` & place in user home directory (`~`).
 3. Run the following commands. For `./install.sh`, it is recommended to agree to all the optional features, but the script will work fine even if not.
    - ```sh
