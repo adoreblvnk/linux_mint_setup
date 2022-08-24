@@ -1,8 +1,22 @@
-# Linux Mint Setup Guide
+# Linux Mint Setup
 
 This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). May work on other versions.
 
 ## About
+
+Linux Mint post-installation script & guide for an aesthetically pleasing machine, inclusive of "daily driver" utilities.
+
+<img src="img/desktop.png" width=1366>
+
+<img src="img/desktop_neofetch.png" width=1366>
+
+<img src="img/firefox_file_manager.png" width=1366>
+
+<img src="img/app_switcher.png" width=1366>
+
+<img src="img/libreoffice.png" width=1366>
+
+<img src="img/workspace.png" width=1366>
 
 ## Getting Started
 

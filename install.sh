@@ -87,7 +87,7 @@ PS1='\${debian_chroot:+(\$debian_chroot)}'
 # add working directory
 PS1+='\[\033[01;34m\]\w\[\033[00m\]'
 # add git branch if exists
-PS1+='\[\033[01;33m\]$(__git_ps1)\[\033[00m\] '
+PS1+='\[\033[01;33m\]\$(__git_ps1)\[\033[00m\] '
 # prompt symbol
 PS1+='\[\033[01;35m\]\\$\[\033[00m\] '" >> .bashrc
 
