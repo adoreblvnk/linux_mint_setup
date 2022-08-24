@@ -103,7 +103,12 @@ The script is divided into 5 sections:
 
 **[Optional] gTile (Window Tiler)**
 
-1. Download `gTile_config.json`.
-2. Menu -> Extensions -> "Download" group
-3. Download & enable gTile.
-4. Click "More Options", then "Import From a File", & select `gTile_config.json`.
+1. Menu -> Extensions -> "Download" group
+2. Download & enable gTile.
+3. Layout:
+   - |       Layout        | Columns | Rows |
+     | :-----------------: | :-----: | :--: |
+     | Layout For Button 1 |    1    |  1   |
+     | Layout For Button 2 |  1, 1   |  1   |
+     | Layout For Button 3 | 1, 1, 1 |  1   |
+     | Layout For Button 4 |  1, 1   | 1, 1 |
