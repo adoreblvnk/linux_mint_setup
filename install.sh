@@ -131,6 +131,7 @@ echo "alias cat=\"batcat -pp\"" >> ~/.bash_aliases
 
 printf "\ninstalling terminator.\n"
 sudo apt-get install -qy terminator
+mkdir -p ~/.config/terminator/
 echo \
 "[global_config]
   title_transmit_bg_color = \"#2e3436\"
