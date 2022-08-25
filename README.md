@@ -32,7 +32,7 @@ Download Linux Mint ISO from [linuxmint.com](https://linuxmint.com/). Follow the
 
 **Other Versions**
 
-*NOTE: This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). May work on other versions.*
+*NOTE: This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). Will most likely work on other versions.*
 
 Linux Mint 21:
 
