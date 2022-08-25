@@ -8,6 +8,17 @@
 
 ---
 
+<details>
+<summary>Table of Contents</summary>
+
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Usage](#usage)
+  - [Script Execution](#script-execution)
+  - [Manual Configurations](#manual-configurations)
+</details>
+
 ## Demo
 
 <img src="img/desktop.png" width=1366>
@@ -40,21 +51,21 @@ Linux Mint 21:
 
 ## Usage <!-- optional -->
 
-There are 2 parts to the tweaks: running the script & manual configuration. Manual configuration is necessary as I'm too lazy to find the specific gsettings to configure everything via a script.
+There are 2 parts to this guide: [Script Execution](#script-execution) & [Manual Configurations](#manual-configurations). The latter is necessary due to my laziness to add the necessary gsettings into `install.sh`.
 
 The script is divided into 5 sections:
 
 - Basics
 - MacOS Theme
 - [Optional] Additional Configurations: Pretty prompt, aliases, better autocompletion.
-- Extras: Command line utilities.
-- Apps: VLC, VS Code.
+- Extras: Command line utilities such as tree, neofetch, bat, terminator.
+- Apps: VLC, VS Code, Discord.
 
 ### Script Execution
 
 1. Launch Firefox, then close it.
-2. Download `./install.sh` & place in user home directory (`~`).
-3. Run the following commands. For `./install.sh`, it is recommended to agree to all the optional features, but the script will work fine even if not.
+2. Download `install.sh` & place in user home directory (`~`).
+3. Run `install.sh` via the following command. It's recommended to agree to the additional configurations, though not necessary.
    - ```sh
      chmod ug+x ./install.sh
      ./install.sh
@@ -62,9 +73,7 @@ The script is divided into 5 sections:
 
 ### Manual Configurations
 
-*NOTE: The "Windows" key is referred to as the "Super" key.*
-
-*NOTE: Launch the Menu via the Super key.*
+*NOTE: The "Windows" key is referred to as the "Super" key. Launch the Menu via the Super key.*
 
 **Applying MacOS Theme**
 
@@ -101,20 +110,17 @@ The script is divided into 5 sections:
 4. Under "Docklets" group, drag "Trash" to Plank.
 5. Menu -> Startup Applications. We will be adding Plank to startup.
 6. Add -> Choose Application -> Plank
-7. [Optional] Add your applications to Plank.
 
 **File Menu (Nautilus)**
 
 1. Menu -> Preferred Applications
 2. Select "Nautilus" for "File Manager". If 2 "Files" are shown, select the 2nd option.
-3. [Optional] Configure other preferred applications here.
 
 **Firefox**
 
 1. Firefox -> Application Menu -> More Tools -> Customize Toolbar
 2. Drag "New Tab" button to the right of the address bar.
 3. Uncheck "Title Bar" at the bottom.
-4. [Optional] Additional Firefox customisation.
 
 **[Optional] Terminator**
 
@@ -139,7 +145,7 @@ The script is divided into 5 sections:
      | Layout For Button 3 | 1, 2, 1 |  1   |
      | Layout For Button 4 |  1, 1   | 1, 1 |
 
-### Credits
+## Credits <!-- omit in toc -->
 
 - blvnk
 - [vinceliuice](https://twitter.com/vinceliuice)
