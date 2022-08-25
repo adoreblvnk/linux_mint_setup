@@ -1,10 +1,14 @@
-# Linux Mint Setup
+<div align="center">
+    <img src="img/lm_icon.png" width=100> <!-- Logo -->
+    <h1>Linux Mint Setup Guide</h1> <!-- Title -->
+    <p>
+      Linux Mint post-installation script & guide for an aesthetically pleasing machine, inclusive of "daily driver" utilities.
+    </p> <!-- Description -->
+</div>
 
-This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). May work on other versions.
+---
 
-## About
-
-Linux Mint post-installation script & guide for an aesthetically pleasing machine, inclusive of "daily driver" utilities.
+## Demo
 
 <img src="img/desktop.png" width=1366>
 
@@ -26,6 +30,14 @@ Linux Mint post-installation script & guide for an aesthetically pleasing machin
 
 Download Linux Mint ISO from [linuxmint.com](https://linuxmint.com/). Follow the default installation instructions.
 
+**Other Versions**
+
+*NOTE: This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). May work on other versions.*
+
+Linux Mint 21:
+
+- gTile does not work currently.
+
 ## Usage <!-- optional -->
 
 There are 2 parts to the tweaks: running the script & manual configuration. Manual configuration is necessary as I'm too lazy to find the specific gsettings to configure everything via a script.
@@ -38,7 +50,7 @@ The script is divided into 5 sections:
 - Extras: Command line utilities.
 - Apps: VLC, VS Code.
 
-### Executing the Script
+### Script Execution
 
 1. Launch Firefox, then close it.
 2. Download `./install.sh` & place in user home directory (`~`).
@@ -128,3 +140,6 @@ The script is divided into 5 sections:
      | Layout For Button 4 |  1, 1   | 1, 1 |
 
 ### Credits
+
+- blvnk
+- [vinceliuice](https://twitter.com/vinceliuice)
