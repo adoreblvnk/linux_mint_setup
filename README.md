@@ -35,7 +35,7 @@
 
 ## Getting Started
 
-### Prerequisites <!-- optional -->
+### Prerequisites
 
 **Installed Linux Mint 20.3+**
 
@@ -49,7 +49,7 @@ Linux Mint 21:
 
 - gTile does not work currently.
 
-## Usage <!-- optional -->
+## Usage
 
 There are 2 parts to this guide: [Script Execution](#script-execution) & [Manual Configurations](#manual-configurations). The latter is necessary due to my laziness to add the necessary gsettings into `install.sh`.
 
@@ -145,7 +145,7 @@ The script is divided into 5 sections:
      | Layout For Button 3 | 1, 2, 1 |  1   |
      | Layout For Button 4 |  1, 1   | 1, 1 |
 
-## Credits <!-- omit in toc -->
+## Credits
 
 - blvnk
 - [vinceliuice](https://twitter.com/vinceliuice)
