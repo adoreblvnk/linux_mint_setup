@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run this script in $HOME directory!
+# run this script in $HOME directory (eg. /home/blvnk)!
 
 set -e
 
