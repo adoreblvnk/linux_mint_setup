@@ -17,6 +17,7 @@
 - [Usage](#usage)
   - [Script Execution](#script-execution)
   - [Manual Configurations](#manual-configurations)
+- [Credits](#credits)
 </details>
 
 ## Demo
@@ -43,11 +44,7 @@ Download Linux Mint ISO from [linuxmint.com](https://linuxmint.com/). Follow the
 
 **Other Versions**
 
-*NOTE: This guide has been tested on Linux Mint 20.3 ["Una"](https://www.linuxmint.com/edition.php?id=292). Will most likely work on other versions.*
-
-Linux Mint 21:
-
-- gTile does not work currently.
+*NOTE: This guide has been tested on Linux Mint 20.3 & 21.1 ["Una"](https://www.linuxmint.com/edition.php?id=302). Will most likely work on other versions.*
 
 ## Usage
 
@@ -89,8 +86,8 @@ The script is divided into 5 sections:
 1. Right-click panel, then move panel to top.
 2. Menu -> Panel. Reduce "Panel Height" to 25.
 3. Menu -> Applets.
-4. Disable "Menu", "Show Desktop", & "Grouped Window List". We will be replacing the default Menu.
-5. Configure "Calendar". Enable "Use a Custom Date Format", & type `%B %e %H:%M` for the "Date Format". 
+4. Disable "Menu", "Show Desktop" *(off by default in Linux Mint 21.1)*, & "Grouped Window List". We will be replacing the default Menu.
+5. Configure "Calendar". Enable "Use a Custom Date Format", & type `%b %e %H:%M` for the "Date Format".
 6. Under "Download" group, download "Cinnamenu".
 7. Under "Manage" group, enable "Cinnamenu".
 8. Configure "Cinnamenu":
@@ -106,7 +103,7 @@ The script is divided into 5 sections:
 
 1. Menu -> Plank
 2. Ctrl Right-click the Plank, then select "Theme-Dark" for "Theme".
-3. [Optional] Decrease "Icon Size" to 32.
+3. [Optional] Decrease "Icon Size" to 36.
 4. Under "Docklets" group, drag "Trash" to Plank.
 5. Menu -> Startup Applications. We will be adding Plank to startup.
 6. Add -> Choose Application -> Plank
@@ -131,7 +128,7 @@ The script is divided into 5 sections:
 
 1. Menu -> Font Selection
 2. Select "DejaVu Sans Book" font for "Default Font", "Desktop Font", "Document Font", "Window Title Font".
-3. Select "DejaVu Sans Mono Book" font for "Monospace Font".
+3. Select "DejaVu Sans Mono Book" font for "Monospace Font". Increase font size as necessary.
 
 **[Optional] gTile (Window Tiler)**
 
@@ -147,5 +144,5 @@ The script is divided into 5 sections:
 
 ## Credits
 
-- blvnk
+- [blvnk](https://twitter.com/adore_blvnk)
 - [vinceliuice](https://twitter.com/vinceliuice)
