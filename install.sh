@@ -163,6 +163,9 @@ echo \
       parent = window0
 [plugins]" > ~/.config/terminator/config
 
+printf "\ninstalling btop.\n"
+# https://github.com/aristocratos/btop
+sudo apt-get install -qy btop
 
 echo "-----APPS-----"
 
@@ -178,5 +181,12 @@ printf "\ninstalling Discord.\n"
 wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
 sudo apt-get install -qy ./discord.deb
 trash discord.deb
+
+printf "\ninstalling OBS Studio.\n"
+# ffmpeg required by OBS.
+sudo apt-get install -qy ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt-get update -q > /dev/null
+sudo apt-get install -qy obs-studio
 
 echo "-----FINISHED SUCCESSFULLY-----"
