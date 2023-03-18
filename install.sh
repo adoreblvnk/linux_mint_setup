@@ -189,4 +189,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt-get update -q > /dev/null
 sudo apt-get install -qy obs-studio
 
+printf "\ninstalling Image Magick.\n"
+sudo apt-get install -qy imagemagick
+
 echo "-----FINISHED SUCCESSFULLY-----"
