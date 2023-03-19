@@ -142,6 +142,33 @@ The script is divided into 5 sections:
      | Layout For Button 3 | 1, 2, 1 |  1   |
      | Layout For Button 4 |  1, 1   | 1, 1 |
 
+**[Optional] Git Authentication with Github & Signing Commits**
+
+1. Authentication with Github
+   ```sh
+   sudo apt-get install -qy pass
+   git config --global credential.credentialStore gpg
+   gpg --full-gen-key
+   # RSA and RSA: 1
+   # Keysize: 4096
+   # Key is valid for: 0
+   # Fill in github name & github email
+   pass init <gpg-id>
+   # download https://github.com/GitCredentialManager/git-credential-manager/releases/latest deb package
+   sudo dpkg -i <path-to-package>
+   git-credential-manager configure
+   ```
+2. Signing Commits
+   ```sh
+   git config --global user.signingkey <short-gpg-id>
+   git config --global commit.gpgsign true
+   git config --global tag.gpgsign true
+   # export GPG key
+   gpg --armor --export <short-gpg-id>
+   ```
+   - Copy the output & refer to [adding a GPG key to your Github account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account).
+
+
 ## Credits
 
 - [blvnk](https://twitter.com/adore_blvnk)
