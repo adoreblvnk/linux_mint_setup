@@ -23,7 +23,9 @@ printf "\ninstalling git.\n"
 sudo apt-get install -qy git
 read -p "add Git logline alias (y/n)? " logline_input
 if [[ $logline_input == "y" ]]; then
-    git config --global alias.logline "log --graph --pretty=format:'%Cred%h%C(yellow)%d %Creset%s %C(bold blue)<%an>'"
+    git config --global alias.logline "log --graph --pretty=format:'%C(yellow)%h %C(red)%ah%C(auto)%d %Creset%s %C(bold blue)<%an>'
+"
+    git config --global alias.ll "log --pretty=format:'%C(yellow)%h%C(auto)%d %Creset%s %C(bold blue)<%an>'"
     echo "added Git logline alias. run with \"git logline\"."
 fi
 
