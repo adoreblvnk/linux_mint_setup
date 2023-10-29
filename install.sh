@@ -194,4 +194,9 @@ sudo apt-get install -qy obs-studio
 printf "\ninstalling Image Magick.\n"
 sudo apt-get install -qy imagemagick
 
+printf "\ninstalling auto-cpufreq.\n"
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+sudo auto-cpufreq --install
+
 echo "-----FINISHED SUCCESSFULLY-----"
